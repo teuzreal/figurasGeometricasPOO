@@ -1,55 +1,106 @@
-# **Figuras Geométricas Planas - Programação Orientada a Objetos**
+# **Figuras Geométricas - Programação Orientada a Objetos (POO)**
 
-Este repositório foi desenvolvido com o objetivo de demonstrar, de forma clara e prática, os conceitos de **Programação Orientada a Objetos (POO)** aplicados ao cálculo de áreas de **figuras geométricas planas**.
-Através da criação de diferentes classes, cada uma representando uma figura geométrica, e da separação de pacotes, o projeto evidencia princípios como **encapsulamento, herança, coesão, reutilização e organização modular de código**.
-
----
-
-### Objetivo
-Implementar o cálculo de área (com e sem retorno de valor) para diversas figuras geométricas planas utilizando os conceitos fundamentais da orientação a objetos em Java.
+Este repositório foi desenvolvido com o objetivo de demonstrar, de forma clara e prática, os principais conceitos da **Programação Orientada a Objetos (POO)** aplicados ao cálculo de áreas e volumes de **figuras geométricas planas e espaciais**. O projeto está organizado em diretórios específicos para cada conceito de POO, utilizando uma abordagem modular com pacotes separados para facilitar o entendimento e a reutilização de código.
 
 ---
 
-### Arquitetura do Projeto
-
-O projeto está dividido em dois pacotes principais:
-
-### 📁 `br.edu.principal`
-Contém a classe principal do programa, com o método `main`, responsável por:
-- Executar os métodos de cálculo de área.
-- Demonstrar o uso prático das classes criadas.
-
-### 📁 `br.edu.figurasgeometricasplanas`
-Este pacote contém todas as classes que representam as **figuras geométricas planas**. Cada classe mostrando os atributos e comportamentos específicos de uma figura, e possui:
-- Métodos **sem retorno** que imprimem diretamente a área.
-- Métodos **com retorno** que devolvem a área calculada.
+###  **Conceitos Abordados**
+- **Abstração**
+- **Encapsulamento**
+- **Herança**
 
 ---
 
-### Figuras Geométricas Implementadas
+###  **Estrutura do Projeto**
 
-As seguintes figuras foram implementadas como classes independentes:
-
--  **Triângulo**
--  **Quadrado**
--  **Retângulo**
--  **Círculo**
--  **Losango**
--  **Trapézio**
--  **Paralelogramo**
--  **Hexágono**
--  **Pentágono**
-
-Cada classe segue uma estrutura padrão com:
-- Atributos privados (bases, altura, lados, raio, etc.)
-- Construtor para inicialização de atributos
-- Métodos `calcArea#()` com e sem retorno
+O projeto está dividido em três diretórios principais, cada um ilustrando um conceito fundamental da Programação Orientada a Objetos:
 
 ---
 
-### UML - Diagrama de Classes
+###  `figurasGeometricas-Abstracao`
 
-O diagrama de classes UML a seguir ilustra as relações entre os componentes do sistema, destacando as classes, métodos e organização dos pacotes:
+Este diretório demonstra o conceito de **Abstração**, com foco em esconder os detalhes internos do funcionamento das figuras e expor apenas o necessário.
 
-![image](https://github.com/user-attachments/assets/68e588d0-1bd8-4d9a-a9b5-54f031407364)
+#### 📁 `br.edu.principal`
+- Contém o método `main`, que realiza testes com as classes.
 
+#### 📁 `br.edu.figurasgeometricasplanas`
+- Contém classes abstratas e concretas que representam figuras geométricas planas.
+
+#### UML - Diagrama de Classes (Abstração)
+
+*****img
+
+---
+
+###  `figurasGeometricas-Encapsulamento`
+
+Este diretório explora o conceito de **Encapsulamento**, protegendo atributos e controlando o acesso por meio de métodos `get` e `set`.
+
+#### 📁 `br.edu.principal`
+- Classe principal com chamadas aos métodos encapsulados.
+
+#### 📁 `br.edu.figurasgeometricasplanas`
+- Figuras planas como: Triângulo, Retângulo, Losango, etc.
+
+#### 📁 `br.edu.figurasgeometricasespacias`
+- Figuras espaciais como: Cubo, Esfera, Cilindro, Cone, etc.
+
+#### UML - Diagrama de Classes (Encapsulamento)
+
+*****img
+
+---
+
+###  `figurasGeometricas-Heranca`
+
+Neste diretório é evidenciado o uso de **Herança**, onde classes derivadas compartilham atributos e métodos de superclasses, promovendo **reutilização de código** e redução de redundância.
+
+#### 📁 `br.edu.principal`
+- Contém o ponto de entrada do programa.
+
+#### 📁 `br.edu.figurasgeometricasplanas`
+- Subclasses que herdam de uma classe base `FiguraPlana`.
+
+#### 📁 `br.edu.figurasgeometricasespacias`
+- Subclasses que herdam de uma classe base `FiguraEspacial`.
+
+#### UML - Diagrama de Classes (Herança)
+
+*****img
+
+---
+
+##  **Figuras Geométricas Implementadas**
+
+### Figuras Planas
+- Triângulo
+- Retângulo
+- Quadrado
+- Círculo
+- Trapézio
+- Paralelogramo
+- Losango
+- Pentágono
+- Hexágono
+
+###  Figuras Espaciais
+- Cubo
+- Prisma
+- Esfera
+- Pirâmide
+- Cone
+- Cilindro
+- Paralelepípedo
+- Tetaedro
+
+---
+
+##  Métodos Implementados
+
+Cada classe segue a estrutura:
+- Atributos privados
+- Construtor para inicialização
+- Métodos:
+  - `calcArea()`
+  - `calcVolume()`
