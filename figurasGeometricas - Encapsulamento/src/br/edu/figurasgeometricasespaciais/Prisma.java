@@ -1,8 +1,8 @@
 package br.edu.figurasgeometricasespaciais;
 public class Prisma {
-	private double aresta;
-	private double base;
-	private double lateral;
+    private double aresta;
+    private double base;
+    private double lateral;
     private double areaBase;
     private double areaLateral;
     private double areaTotal;
