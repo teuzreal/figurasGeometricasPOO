@@ -67,7 +67,7 @@ Neste diretório é evidenciado o uso de **Herança**, onde classes derivadas co
 
 #### UML - Diagrama de Classes (Herança)
 
-*****img
+![image](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
 
 ---
 
