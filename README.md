@@ -29,7 +29,7 @@ Este diretório demonstra o conceito de **Abstração**, com foco em esconder os
 
 #### UML - Diagrama de Classes (Abstração)
 
-*****img
+![image](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
 
 ---
 
@@ -48,7 +48,7 @@ Este diretório explora o conceito de **Encapsulamento**, protegendo atributos e
 
 #### UML - Diagrama de Classes (Encapsulamento)
 
-*****img
+![image](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
 
 ---
 
