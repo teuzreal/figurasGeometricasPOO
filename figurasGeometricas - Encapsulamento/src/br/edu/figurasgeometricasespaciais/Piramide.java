@@ -1,8 +1,8 @@
 package br.edu.figurasgeometricasespaciais;
 public class Piramide {
-	private double lado;
-	private double ladoBase;
-	private double altura;
+    private double lado;
+    private double ladoBase;
+    private double altura;
     private double areaBase;
     private double areaLateral;
     private double areaTotal;
