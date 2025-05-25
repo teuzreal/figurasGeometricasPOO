@@ -40,7 +40,7 @@ public abstract class figuraEspacial {
     	System.out.println("Volume com retorno: " + volume);
         return volume;
     } 
-    public abstract void calcAlturaa();
+    public abstract void calcAltura();
     public abstract void calcDiagonal();
     public abstract void calcAreaTotalBase();
     public abstract void calcArea();
