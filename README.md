@@ -1,106 +1,107 @@
-# **Figuras Geométricas - Programação Orientada a Objetos (POO)**
+# 📚 Figuras Geométricas com Programação Orientada a Objetos
 
-Este repositório foi desenvolvido com o objetivo de demonstrar, de forma clara e prática, os principais conceitos da **Programação Orientada a Objetos (POO)** aplicados ao cálculo de áreas e volumes de **figuras geométricas planas e espaciais**. O projeto está organizado em diretórios específicos para cada conceito de POO, utilizando uma abordagem modular com pacotes separados para facilitar o entendimento e a reutilização de código.
-
----
-
-###  **Conceitos Abordados**
-- **Abstração**
-- **Encapsulamento**
-- **Herança**
+Este repositório tem como objetivo demonstrar os principais conceitos de **Programação Orientada a Objetos (POO)** aplicados ao cálculo de **áreas e volumes** de figuras geométricas **planas e espaciais**. A estrutura modular do projeto facilita a compreensão e reutilização do código, organizando os exemplos em pacotes separados para os conceitos de **Abstração**, **Encapsulamento** e **Herança**.
 
 ---
 
-###  **Estrutura do Projeto**
+## ⚙️ Conceitos de POO Aplicados
 
-O projeto está dividido em três diretórios principais, cada um ilustrando um conceito fundamental da Programação Orientada a Objetos:
-
----
-
-###  `figurasGeometricas-Abstracao`
-
-Este diretório demonstra o conceito de **Abstração**, com foco em esconder os detalhes internos do funcionamento das figuras e expor apenas o necessário.
-
-#### 📁 `br.edu.principal`
-- Contém o método `main`, que realiza testes com as classes.
-
-#### 📁 `br.edu.figurasgeometricasplanas`
-- Contém classes abstratas e concretas que representam figuras geométricas planas.
-
-#### UML - Diagrama de Classes (Abstração)
-
-![image](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
+- 🧩 **Abstração**  
+- 🔐 **Encapsulamento**  
+- 🧬 **Herança**
 
 ---
 
-###  `figurasGeometricas-Encapsulamento`
+## 🗂 Estrutura Geral
 
-Este diretório explora o conceito de **Encapsulamento**, protegendo atributos e controlando o acesso por meio de métodos `get` e `set`.
-
-#### 📁 `br.edu.principal`
-- Classe principal com chamadas aos métodos encapsulados.
-
-#### 📁 `br.edu.figurasgeometricasplanas`
-- Figuras planas como: Triângulo, Retângulo, Losango, etc.
-
-#### 📁 `br.edu.figurasgeometricasespacias`
-- Figuras espaciais como: Cubo, Esfera, Cilindro, Cone, etc.
-
-#### UML - Diagrama de Classes (Encapsulamento)
-
-![image](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
+O projeto está dividido em três diretórios principais, representando cada conceito da POO:
 
 ---
 
-###  `figurasGeometricas-Heranca`
+### 📁 `figurasGeometricas - Abstração`
 
-Neste diretório é evidenciado o uso de **Herança**, onde classes derivadas compartilham atributos e métodos de superclasses, promovendo **reutilização de código** e redução de redundância.
+Demonstra o conceito de **abstração**, ocultando os detalhes internos da implementação das figuras e expondo apenas o essencial para o usuário.
 
-#### 📁 `br.edu.principal`
-- Contém o ponto de entrada do programa.
+**Pacotes:**
+- `br.edu.principal` → Contém o método `Principal` com testes das classes.  
+- `br.edu.figurasgeometricasplanas` → Contém classes abstratas e concretas de figuras planas.
 
-#### 📁 `br.edu.figurasgeometricasplanas`
-- Subclasses que herdam de uma classe base `FiguraPlana`.
+### **🔷 Diagrama UML (Abstração):**  
 
-#### 📁 `br.edu.figurasgeometricasespacias`
-- Subclasses que herdam de uma classe base `FiguraEspacial`.
-
-#### UML - Diagrama de Classes (Herança)
-
-![image](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
+![Abstração](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
 
 ---
 
-##  **Figuras Geométricas Implementadas**
+### 📁 `figurasGeometricas - Encapsulamento`
 
-### Figuras Planas
-- Triângulo
-- Retângulo
-- Quadrado
-- Círculo
-- Trapézio
-- Paralelogramo
-- Losango
-- Pentágono
+Explora o conceito de **encapsulamento**, protegendo atributos e controlando seu acesso através de métodos públicos (`get` e `set`).
+
+**Pacotes:**
+- `br.edu.principal` → Classe principal com chamadas aos métodos encapsulados.  
+- `br.edu.figurasgeometricasplanas` → Ex: Triângulo, Retângulo, Losango etc.  
+- `br.edu.figurasgeometricasespacias` → Ex: Cubo, Esfera, Cilindro, Cone etc.
+
+### **🔷 Diagrama UML (Encapsulamento):**  
+
+![Encapsulamento](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
+
+---
+
+### 📁 `figurasGeometricas - Herança`
+
+Mostra a aplicação da **herança**, promovendo reutilização de código e redução de redundância ao criar subclasses que herdam comportamentos e atributos de superclasses.
+
+**Pacotes:**
+- `br.edu.principal` → Classe principal do programa.  
+- `br.edu.figurasgeometricasplanas` → Subclasses que estendem `FiguraPlana`.  
+- `br.edu.figurasgeometricasespacias` → Subclasses que estendem `FiguraEspacial`.
+
+### **🔷 Diagrama UML (Herança):**  
+
+![Herança](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
+
+---
+
+## 📐 Figuras Geométricas Implementadas
+
+### ✳️ Figuras Planas
+- Triângulo  
+- Retângulo  
+- Quadrado  
+- Círculo  
+- Trapézio  
+- Paralelogramo  
+- Losango  
+- Pentágono  
 - Hexágono
 
-###  Figuras Espaciais
-- Cubo
-- Prisma
-- Esfera
-- Pirâmide
-- Cone
-- Cilindro
-- Paralelepípedo
-- Tetaedro
+### 🔷 Figuras Espaciais
+- Cubo  
+- Prisma  
+- Esfera  
+- Pirâmide  
+- Cone  
+- Cilindro  
+- Paralelepípedo  
+- Tetraedro
 
 ---
 
-##  Métodos Implementados
+## 🛠 Métodos Implementados
 
-Cada classe segue a estrutura:
-- Atributos privados
-- Construtor para inicialização
-- Métodos:
+Todas as classes seguem a mesma estrutura de implementação:
+
+- ✅ Atributos privados  
+- ✅ Construtor para inicialização  
+- ✅ Métodos públicos:
   - `calcArea()`
-  - `calcVolume()`
+  - `calcVolume()` *(apenas para figuras espaciais)*
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/figurasGeometricasPOO.git
